@@ -6,14 +6,6 @@ Database design untuk sistem Enterprise Management, Human Resource (HR), dan Pay
 
 ![HR Core Payroll ERD](docs/diagrams/out/hr-core/HR_Core_Payroll_ERD.png)
 
-ERD menggambarkan struktur entitas, atribut, Primary Key (PK), Foreign Key (FK), dan hubungan antar tabel.
-
-Diagram dibuat menggunakan PlantUML.
-
-**File:** `docs/diagrams/db_hr_core.puml`
-
-Untuk melihat diagram, buka file `.puml` menggunakan ekstensi PlantUML di Visual Studio Code.
-
 ## DDL
 
 ```sql
