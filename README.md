@@ -12,10 +12,6 @@ Database design untuk sistem Enterprise Management, Human Resource (HR), dan Pay
 
 CREATE DATABASE db_hr_core;
 
-
-
-
-
 CREATE TABLE enterprises (
     enterprise_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     company_name VARCHAR(150) NOT NULL,
