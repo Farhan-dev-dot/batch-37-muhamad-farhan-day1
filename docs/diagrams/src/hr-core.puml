@@ -1,10 +1,6 @@
 
 @startuml HR_Core_Payroll_ERD
 
-' ==========================================
-' HR CORE & PAYROLL DATABASE
-' PostgreSQL Database Design
-' ==========================================
 
 hide circle
 skinparam linetype ortho
@@ -18,9 +14,7 @@ skinparam ArrowColor #64748B
 
 title HR CORE - ROLE BASED USER MANAGEMENT & PAYROLL ERD
 
-' ==========================================
-' 1. ENTERPRISE & USER MANAGEMENT
-' ==========================================
+
 
 entity "enterprises" as enterprises {
     * enterprise_id : BIGINT <<PK>>
